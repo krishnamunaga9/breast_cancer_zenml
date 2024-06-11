@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+numpy
+flask
+zenml==0.40.0
+joblib
