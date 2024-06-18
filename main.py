@@ -12,11 +12,6 @@ from pipelines.training_pipeline import (
     model_evaluator,
 )
 
-pipeline = training_pipeline(
-    data_loader=data_loader,
-    data_preprocessor=data_preprocessor,
-    model_trainer=model_trainer,
-    model_evaluator=model_evaluator,
-)
+pipeline = training_pipeline()
 
 pipeline.run()
